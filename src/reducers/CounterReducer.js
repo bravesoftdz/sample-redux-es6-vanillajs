@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
 
-import { ActionsTypes as CounterActionTypes } from '../actions/CounterAction';
+import { ActionsTypes as CounterActionTypes } from '../actions/CounterActions';
 
 const result = (state = 0, action) => {
   switch (action.type) {
